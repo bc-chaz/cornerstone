@@ -1,7 +1,94 @@
 [
   {
     "name": "Global",
+    "global_style_options": {
+      "typography": {
+        "fontFamily": [
+          {
+            "group": "Montserrat",
+            "label": "Montserrat Light",
+            "value": "Google_Montserrat_400"
+          },
+          {
+            "group": "Open Sans",
+            "label": "Open Sans",
+            "value": "Google_Open+Sans_400"
+          },
+          {
+            "group": "Open Sans",
+            "label": "Open Sans Bold",
+            "value": "Google_Open+Sans_700"
+          },
+          {
+            "group": "Roboto",
+            "label": "Roboto",
+            "value": "Google_Roboto_400"
+          },
+          {
+            "group": "Volkhov",
+            "label": "Volkhov",
+            "value": "Google_Volkhov_400"
+          }
+        ]
+      }
+    },
     "settings": [
+      {
+        "type": "heading",
+        "content": "Headings"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Heading 1",
+        "id": "global_typography_h1"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Heading 2",
+        "id": "global_typography_h2"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Heading 3",
+        "id": "global_typography_h3"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Heading 4",
+        "id": "global_typography_h4"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Heading 5",
+        "id": "global_typography_h5"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Heading 6",
+        "id": "global_typography_h6"
+      },
+      {
+        "type": "heading",
+        "content": "Body text"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Body text",
+        "id": "global_typography_body_text"
+      },
+      {
+        "type": "globalStyle",
+        "category": "typography",
+        "label": "Secondary text",
+        "id": "global_typography_secondary_text"
+      },
       {
         "type": "heading",
         "content": "Background and lines"

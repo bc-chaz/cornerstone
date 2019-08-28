@@ -1,6 +1,6 @@
 {
   "name": "Builderstone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "meta": {
     "price": 0,
     "documentation_url": "https://support.bigcommerce.com/articles/Public/Cornerstone-Theme-Manual",
@@ -319,7 +319,139 @@
       "discover",
       "mastercard",
       "visa"
-    ]
+    ],
+    "global": {
+        "typography": {
+            "global_typography_h1": {
+                "font-family": "Google_Montserrat_400",
+                "font-weight": 700,
+                "font-size": {
+                    "value": 32
+                },
+                "line-height": {
+                    "value": 37
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#333333"
+            },
+            "global_typography_h2": {
+                "font-family": "Google_Montserrat_400",
+                "font-weight": 700,
+                "font-size": {
+                    "value": 24
+                },
+                "line-height": {
+                    "value": 28
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#333333"
+            },
+            "global_typography_h3": {
+                "font-family": "Google_Montserrat_400",
+                "font-weight": 700,
+                "font-size": {
+                    "value": 18
+                },
+                "line-height": {
+                    "value": 22
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#333333"
+            },
+            "global_typography_h4": {
+                "font-family": "Google_Montserrat_400",
+                "font-weight": 700,
+                "font-size": {
+                    "value": 16
+                },
+                "line-height": {
+                    "value": 18
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#333333"
+            },
+            "global_typography_h5": {
+                "font-family": "Google_Montserrat_400",
+                "font-weight": 700,
+                "font-size": {
+                    "value": 13
+                },
+                "line-height": {
+                    "value": 15
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#333333"
+            },
+            "global_typography_h6": {
+                "font-family": "Google_Montserrat_400",
+                "font-weight": 700,
+                "font-size": {
+                    "value": 11
+                },
+                "line-height": {
+                    "value": 13
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#333333"
+            },
+            "global_typography_body_text": {
+                "font-family": "Google_Open+Sans_400",
+                "font-weight": 400,
+                "font-size": {
+                    "value": 16
+                },
+                "line-height": {
+                    "value": 18
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#333333"
+            },
+            "global_typography_secondary_text": {
+                "font-family": "Google_Open+Sans_400",
+                "font-weight": 400,
+                "font-size": {
+                    "value": 16
+                },
+                "line-height": {
+                    "value": 18
+                },
+                "letter-spacing": {
+                    "value": 0
+                },
+                "text-decoration": "none",
+                "text-transform": "none",
+                "color": "#757575"
+            }
+        }
+    }
   },
   "read_only_files": [
     "/assets/scss/components/citadel",
