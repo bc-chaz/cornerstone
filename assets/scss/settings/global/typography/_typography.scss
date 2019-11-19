@@ -35,12 +35,12 @@ $fontFamily-hero:               stencilFontFamily("headings-font"), Arial, Helve
 $fontSize-root:                 stencilNumber("fontSize-root"); // 1
 $fontSize-base:                 1rem; // 2
 $fontSize-hero:                 50px;
-$fontSize-largest:              stencilNumber("fontSize-h1");
-$fontSize-larger:               stencilNumber("fontSize-h2");
-$fontSize-large:                stencilNumber("fontSize-h3");
-$fontSize-small:                stencilNumber("fontSize-h4");
-$fontSize-smaller:              stencilNumber("fontSize-h5");
-$fontSize-smallest:             stencilNumber("fontSize-h6");
+$fontSize-largest:              stencilNumber("global.typography.global_typography_h1.font-size.value");
+$fontSize-larger:               stencilNumber("global.typography.global_typography_h2.font-size.value");
+$fontSize-large:                stencilNumber("global.typography.global_typography_h3.font-size.value");
+$fontSize-small:                stencilNumber("global.typography.global_typography_h4.font-size.value");
+$fontSize-smaller:              stencilNumber("global.typography.global_typography_h5.font-size.value");
+$fontSize-smallest:             stencilNumber("global.typography.global_typography_h6.font-size.value");
 $fontSize-tiny:                 12px;
 $fontSize-logo-large:           stencilNumber("logo_fontSize");
 $fontSize-logo-medium:          $fontSize-logo-large - 6px;

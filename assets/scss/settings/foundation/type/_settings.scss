@@ -75,8 +75,8 @@ $body-font-style:               null;
 // We use this to control font-smoothing
 $font-smoothing:                antialiased;
 
-// We use these to control header font styles
-$header-font-family:            stencilFontFamily("headings-font"), Arial, Helvetica, sans-serif;
+// We use these to control general heading font styles
+$header-font-family:            Arial, Helvetica, sans-serif;
 $header-font-weight:            stencilFontWeight("headings-font");
 $header-font-style:             null;
 $header-font-color:             stencilColor("color-textHeading");
@@ -84,7 +84,7 @@ $header-line-height:            null;
 $header-top-margin:             spacing("double");
 $header-bottom-margin:          spacing("half");
 $header-text-rendering:         null;
-$header-letter-spacing:         letterSpacing("small");
+$header-letter-spacing:         letterSpacing("base");
 
 // We use these to control header font sizes
 $h1-font-size:                  fontSize("largest");
@@ -94,6 +94,59 @@ $h4-font-size:                  fontSize("small");
 $h5-font-size:                  fontSize("smaller");
 $h6-font-size:                  fontSize("smallest");
 
+// Heading 1 font styles
+$h1-font-family:                stencilFontFamily("global.typography.global_typography_h1.font-family"), $header-font-family;
+$h1-font-weight:                stencilNumber("global.typography.global_typography_h1.font-weight", '');
+$h1-line-height:                stencilNumber("global.typography.global_typography_h1.line-height.value");
+$h1-letter-spacing:             stencilNumber("global.typography.global_typography_h1.letter-spacing.value");
+$h1-text-decoration:            stencilString("global.typography.global_typography_h1.text-decoration");
+$h1-text-transform:             stencilString("global.typography.global_typography_h1.text-transform");
+$h1-color:                      stencilColor("global.typography.global_typography_h1.color");
+
+// Heading 2 font styles
+$h2-font-family:                stencilFontFamily("global.typography.global_typography_h2.font-family"), $header-font-family;
+$h2-font-weight:                stencilNumber("global.typography.global_typography_h2.font-weight", '');
+$h2-line-height:                stencilNumber("global.typography.global_typography_h2.line-height.value");
+$h2-letter-spacing:             stencilNumber("global.typography.global_typography_h2.letter-spacing.value");
+$h2-text-decoration:            stencilString("global.typography.global_typography_h2.text-decoration");
+$h2-text-transform:             stencilString("global.typography.global_typography_h2.text-transform");
+$h2-color:                      stencilColor("global.typography.global_typography_h2.color");
+
+// Heading 3 font styles
+$h3-font-family:                stencilFontFamily("global.typography.global_typography_h3.font-family"), $header-font-family;
+$h3-font-weight:                stencilNumber("global.typography.global_typography_h3.font-weight", '');
+$h3-line-height:                stencilNumber("global.typography.global_typography_h3.line-height.value");
+$h3-letter-spacing:             stencilNumber("global.typography.global_typography_h3.letter-spacing.value");
+$h3-text-decoration:            stencilString("global.typography.global_typography_h3.text-decoration");
+$h3-text-transform:             stencilString("global.typography.global_typography_h3.text-transform");
+$h3-color:                      stencilColor("global.typography.global_typography_h3.color");
+
+// Heading 4 font styles
+$h4-font-family:                stencilFontFamily("global.typography.global_typography_h4.font-family"), $header-font-family;
+$h4-font-weight:                stencilNumber("global.typography.global_typography_h4.font-weight", '');
+$h4-line-height:                stencilNumber("global.typography.global_typography_h4.line-height.value");
+$h4-letter-spacing:             stencilNumber("global.typography.global_typography_h4.letter-spacing.value");
+$h4-text-decoration:            stencilString("global.typography.global_typography_h4.text-decoration");
+$h4-text-transform:             stencilString("global.typography.global_typography_h4.text-transform");
+$h4-color:                      stencilColor("global.typography.global_typography_h4.color");
+
+// Heading 5 font styles
+$h5-font-family:                stencilFontFamily("global.typography.global_typography_h5.font-family"), $header-font-family;
+$h5-font-weight:                stencilNumber("global.typography.global_typography_h5.font-weight", '');
+$h5-line-height:                stencilNumber("global.typography.global_typography_h5.line-height.value");
+$h5-letter-spacing:             stencilNumber("global.typography.global_typography_h5.letter-spacing.value");
+$h5-text-decoration:            stencilString("global.typography.global_typography_h5.text-decoration");
+$h5-text-transform:             stencilString("global.typography.global_typography_h5.text-transform");
+$h5-color:                      stencilColor("global.typography.global_typography_h5.color");
+
+// Heading 6 font styles
+$h6-font-family:                stencilFontFamily("global.typography.global_typography_h6.font-family"), $header-font-family;
+$h6-font-weight:                stencilNumber("global.typography.global_typography_h6.font-weight", '');
+$h6-line-height:                stencilNumber("global.typography.global_typography_h6.line-height.value");
+$h6-letter-spacing:             stencilNumber("global.typography.global_typography_h6.letter-spacing.value");
+$h6-text-decoration:            stencilString("global.typography.global_typography_h6.text-decoration");
+$h6-text-transform:             stencilString("global.typography.global_typography_h6.text-transform");
+$h6-color:                      stencilColor("global.typography.global_typography_h6.color");
 
 // These control how subheaders are styled.
 $subheader-line-height:         lineHeight("small");

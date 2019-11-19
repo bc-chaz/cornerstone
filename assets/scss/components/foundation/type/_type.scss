@@ -19,6 +19,7 @@ h5,
 h6 {
     font-weight: $header-font-weight;
     margin-top: $heading-marginTop;
+    letter-spacing: $header-letter-spacing;
 }
 
 h5,
@@ -42,26 +43,68 @@ cite {
 
 h1 {
     font-size: $h1-font-size;
+    font-family: $h1-font-family;
+    font-weight: $h1-font-weight;
+    line-height: $h1-line-height;
+    letter-spacing: $h1-letter-spacing;
+    text-decoration: $h1-text-decoration;
+    text-transform: $h1-text-transform;
+    color: $h1-color;
 }
 
 h2 {
     font-size: $h2-font-size;
+    font-family: $h2-font-family;
+    font-weight: $h2-font-weight;
+    line-height: $h2-line-height;
+    letter-spacing: $h2-letter-spacing;
+    text-decoration: $h2-text-decoration;
+    text-transform: $h2-text-transform;
+    color: $h2-color;
 }
 
 h3 {
     font-size: $h3-font-size;
+    font-family: $h3-font-family;
+    font-weight: $h3-font-weight;
+    line-height: $h3-line-height;
+    letter-spacing: $h3-letter-spacing;
+    text-decoration: $h3-text-decoration;
+    text-transform: $h3-text-transform;
+    color: $h3-color;
 }
 
 h4 {
     font-size: $h4-font-size;
+    font-family: $h4-font-family;
+    font-weight: $h4-font-weight;
+    line-height: $h4-line-height;
+    letter-spacing: $h4-letter-spacing;
+    text-decoration: $h4-text-decoration;
+    text-transform: $h4-text-transform;
+    color: $h4-color;
 }
 
 h5 {
     font-size: $h5-font-size;
+    font-family: $h5-font-family;
+    font-weight: $h5-font-weight;
+    line-height: $h5-line-height;
+    letter-spacing: $h5-letter-spacing;
+    text-decoration: $h5-text-decoration;
+    text-transform: $h5-text-transform;
+    color: $h5-color;
 }
 
 h6 {
     font-size: $h6-font-size;
+    font-family: $h6-font-family;
+    font-weight: $h6-font-weight;
+    line-height: $h6-line-height;
+    letter-spacing: $h6-letter-spacing;
+    text-decoration: $h6-text-decoration;
+    text-transform: $h6-text-transform;
+    color: $h6-color;
 }
 
 .definitionList {

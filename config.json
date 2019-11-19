@@ -1,6 +1,6 @@
 {
   "name": "Builderstone",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "meta": {
     "price": 0,
     "documentation_url": "https://support.bigcommerce.com/articles/Public/Cornerstone-Theme-Manual",
@@ -107,6 +107,9 @@
     "fontSize-h4": 20,
     "fontSize-h5": 15,
     "fontSize-h6": 13,
+    "fontSize_h7": {
+        "value": 15
+    },
     "applePay-button": "black",
     "color-textBase": "#333333",
     "color-textBase--hover": "#757575",
@@ -322,9 +325,10 @@
     ],
     "global": {
         "typography": {
+            "h5": 19,
             "global_typography_h1": {
                 "font-family": "Google_Montserrat_400",
-                "font-weight": 700,
+                "font-weight": 400,
                 "font-size": {
                     "value": 32
                 },
@@ -340,7 +344,7 @@
             },
             "global_typography_h2": {
                 "font-family": "Google_Montserrat_400",
-                "font-weight": 700,
+                "font-weight": 400,
                 "font-size": {
                     "value": 24
                 },
@@ -356,7 +360,7 @@
             },
             "global_typography_h3": {
                 "font-family": "Google_Montserrat_400",
-                "font-weight": 700,
+                "font-weight": 400,
                 "font-size": {
                     "value": 18
                 },
@@ -372,7 +376,7 @@
             },
             "global_typography_h4": {
                 "font-family": "Google_Montserrat_400",
-                "font-weight": 700,
+                "font-weight": 400,
                 "font-size": {
                     "value": 16
                 },
@@ -390,10 +394,10 @@
                 "font-family": "Google_Montserrat_400",
                 "font-weight": 700,
                 "font-size": {
-                    "value": 13
+                    "value": 15
                 },
                 "line-height": {
-                    "value": 15
+                    "value": 17
                 },
                 "letter-spacing": {
                     "value": 0
@@ -404,7 +408,7 @@
             },
             "global_typography_h6": {
                 "font-family": "Google_Montserrat_400",
-                "font-weight": 700,
+                "font-weight": 400,
                 "font-size": {
                     "value": 11
                 },
